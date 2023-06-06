@@ -17,9 +17,11 @@
 - Vérifier la création de la table avec pgAdmin
 
 ## ⚙️ Configuration de grafana :
-- Installer grafana 
+- Installer grafana
 - Connecter la BDD postgresql dans les sources et désactiver le mode TLS/SSL
+- Installer les plugins nécessaires (ex: Apache eCharts, Geomap)
 - Utiliser les panneaux et réaliser différentes requêtes SQL pour récupérer les informations utiles
+
 
 
 <p align="center">
