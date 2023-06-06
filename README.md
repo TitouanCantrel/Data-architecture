@@ -5,11 +5,12 @@
 - Vérifier l'envoi et la fréquence par le biais de WinSCP
 
 
-## 📝 Mise en place d'une pipeline ETL :
+## 📝 Mise en place d'une pipeline ETL (ftp.py):
 - Se connecter au serveur FTP avec la bibliothéque ftplib 
-- Nettoyer et transformer les données avec les bibliothéques Pandas,Numpy
+- Nettoyer et transformer les données avec les bibliothéques Pandas,Numpy,Statistics
 - Enrichir en calculant de nouvelles données avec le fichier polaire.csv ou avec d'autres données
 - Stocker les données dans la BDD (PostgreSQL) avec la bibliothéque psycopg2
+- Faire tourner les différentes fonctions en boucle avec la bibliothéque apscheduler
 
 
 ## 📩 Stockage des données :
